@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0b8080;
+}
+
+#clock {
+  background-color: #c4faff;
+  width: 75%;
+  height: 250px;
+  margin: auto;
+
+  margin-top: 100px;
+  border-radius: 40px;
+}
+.header {
+  font-size: 48px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+}
+#myTime {
+  font-size: 90px;
+  text-align: center;
+  padding-top: 40px;
+  color: #ff2d06bd;
+  font-weight: 900;
+}
+
+@media (max-width: 580px) {
+  #clock {
+    width: 100%;
+  }
+}
